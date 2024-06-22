@@ -1,0 +1,81 @@
+.header {
+  background-image: url(../../../public/photo_2024-06-14_20-32-27.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tg {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tg:hover {
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: white;
+}
+
+.ui {
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.ui:hover {
+  color: #214b5e;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.bg {
+  background-image: url(../../../public/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: background-size 3s ease;
+}
+
+.bg.scrolled {
+  background-size: 110% auto;
+}
+
+.btn:hover {
+  background: #214b5e;
+  border-color: white;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.bn:hover {
+  transition: all 0.1s ease;
+  background: #214b5e;
+  color: white;
+}
+
+.tg2:hover {
+  border-radius: 100%;
+  background: rgba(137, 137, 137, 2);
+  transition: all 0.3s ease;
+}
+
+.p1:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: rgba(137, 137, 137, 2);
+}

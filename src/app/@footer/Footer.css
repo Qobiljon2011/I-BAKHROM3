@@ -1,0 +1,21 @@
+.tg2:hover{
+    background: grey;
+    color: white;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+}
+
+.co:hover{
+    transition: all 0.5s ease;
+    color:grey
+}
+
+.w:hover{
+    transition: all 0.5s ease;
+    color:grey
+}
+
+.h:hover{
+    transition: all 0.5s ease;
+    color:grey
+}

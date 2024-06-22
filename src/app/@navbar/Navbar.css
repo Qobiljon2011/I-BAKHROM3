@@ -1,0 +1,41 @@
+.tg {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tg:hover {
+  width: 40px;
+  height: 40px;
+  background: grey;
+  color: white;
+}
+
+.ui {
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.ui:hover {
+  color: #214b5e;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.ui.active{
+  color: #214b5e;
+}
